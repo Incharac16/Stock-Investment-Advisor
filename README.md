@@ -1,199 +1,72 @@
-<div align="center">
-
 # 📈 Stock Investment Advisor
 
-### Intelligent Stock Analysis & Investment Recommendation Platform
-
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)]()
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)]()
-[![License](https://img.shields.io/badge/License-MIT-green)]()
-
-*A modern stock analysis platform that provides intelligent BUY, HOLD, and SELL recommendations using technical indicators, predictive analytics, and interactive visualizations.*
+A modern web application that helps users analyze stock market trends and make informed investment decisions through interactive dashboards and intelligent BUY, HOLD, and SELL recommendations.
 
 ---
 
-### 🚀 Live Demo
-*(Add after deployment)*
+## Features
 
-### 📷 Dashboard Preview
-
-<img src="images/dashboard.png" width="100%">
-
-</div>
-
----
-
-# 📖 Overview
-
-Stock Investment Advisor is an interactive investment analytics platform built to assist investors in analyzing market trends and making informed investment decisions.
-
-The application combines technical indicators, expected return estimation, reliability metrics, and trend analysis into an intuitive dashboard that delivers actionable BUY, HOLD, and SELL recommendations.
+- 📊 Interactive stock analytics dashboard
+- 📈 Stock trend visualization
+- 💹 BUY, HOLD, and SELL recommendations
+- 🔍 Search stocks by ticker symbol
+- 📉 Expected return prediction
+- 📊 Reliability (R²) and direction accuracy metrics
+- 📱 Responsive and user-friendly interface
 
 ---
 
-# ✨ Features
+## Tech Stack
 
-## 📊 Analytics Dashboard
-
-- View multiple stocks simultaneously
-- Interactive investment dashboard
-- Live market overview
-- Quick stock search
+- **Frontend:** React, TypeScript, Vite
+- **AI:** Google Gemini API
+- **Version Control:** Git & GitHub
 
 ---
 
-## 📈 Investment Analytics
-
-- Expected Return Prediction
-- BUY / HOLD / SELL Recommendation
-- Trend Detection
-- Reliability (R²) Score
-- Direction Accuracy Analysis
-
----
-
-## 📉 Visualization
-
-- Interactive charts
-- Stock-wise analysis
-- Historical recommendation tracking
-- Backtesting support
-
----
-
-## 💻 User Experience
-
-- Dark modern interface
-- Responsive design
-- Fast loading
-- Clean navigation
-
----
-
-# 📸 Application Screenshots
-
-## Dashboard
-
-<img src="images/dashboard.png">
-
----
-
-## Stock Analysis
-
-> Add screenshot here
-
-<img src="images/analyze.png">
-
----
-
-## Recommendation History
-
-> Add screenshot here
-
-<img src="images/history.png">
-
----
-
-## Backtesting
-
-> Add screenshot here
-
-<img src="images/backtest.png">
-
----
-
-# 🏗️ Architecture
-
-```
-                 User
-                   │
-                   ▼
-        React + TypeScript UI
-                   │
-                   ▼
-      Investment Recommendation Engine
-                   │
-                   ▼
-         Technical Indicators
-                   │
-                   ▼
-        Financial Market Data
-```
-
----
-
-# 🛠️ Tech Stack
-
-| Category | Technologies |
-|-----------|--------------|
-| Frontend | React, TypeScript, Vite |
-| Styling | CSS |
-| AI | Google Gemini API |
-| Charts | Interactive Charts |
-| Version Control | Git, GitHub |
-
----
-
-# 📂 Folder Structure
+## Project Structure
 
 ```
 Stock-Investment-Advisor/
-
-│── components/
-│── images/
-│── App.tsx
-│── constants.ts
-│── index.tsx
-│── metadata.json
-│── package.json
-│── vite.config.ts
-│── README.md
+├── components/
+├── App.tsx
+├── constants.ts
+├── index.tsx
+├── types.ts
+├── package.json
+├── vite.config.ts
+└── README.md
 ```
 
 ---
 
-# 🚀 Installation
+## Installation
 
-## Clone Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Incharac16/Stock-Investment-Advisor.git
 ```
 
----
-
-## Install Dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
----
-
-## Configure Environment
-
-Create
-
-```
-.env.local
-```
-
-Add
+Create a `.env.local` file:
 
 ```env
 VITE_GEMINI_API_KEY=YOUR_API_KEY
 ```
 
----
-
-## Run
+Run the application:
 
 ```bash
 npm run dev
 ```
 
-Open
+Open:
 
 ```
 http://localhost:5173
@@ -201,66 +74,25 @@ http://localhost:5173
 
 ---
 
-# 📊 Dashboard Metrics
+## Future Enhancements
 
-The dashboard provides:
-
-- Total Stocks Scanned
-- BUY Signals
-- SELL Signals
-- HOLD Signals
-- Reliability Score (R²)
-- Trend Direction
-- Direction Accuracy
-- Expected Return
-
----
-
-# 📌 Future Enhancements
-
-- Portfolio Tracking
+- Portfolio management
 - Watchlist
-- Price Alerts
-- News Sentiment Analysis
-- Portfolio Risk Analysis
-- PDF Report Export
-- Multi-stock Comparison
-- AI Chat Assistant
-- Mobile Application
+- Price alerts
+- News sentiment analysis
+- Risk assessment
+- Performance analytics
 
 ---
 
-# 🎯 Learning Outcomes
+## Disclaimer
 
-This project strengthened my knowledge in:
-
-- React
-- TypeScript
-- Component-based Architecture
-- API Integration
-- Financial Data Visualization
-- Responsive UI Design
-- Git & GitHub
-- Frontend Development
+This project is developed for educational purposes only and should not be considered financial advice.
 
 ---
 
-# ⚠️ Disclaimer
-
-This project is developed solely for educational purposes.
-
-The investment recommendations generated by this application should **not** be considered financial advice.
-
----
-
-# 👩‍💻 Author
+## Author
 
 **Inchara C**
 
-GitHub:
-https://github.com/Incharac16
-
-LinkedIn:
-*(Add your LinkedIn URL)*
-
-⭐ If you found this project useful, consider giving it a star.
+GitHub: https://github.com/Incharac16
